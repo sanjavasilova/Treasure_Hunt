@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bglhvg1uui2p0"
+path="res://.godot/imported/fence_simpleCenter.obj-d7d6e90a82916dea2ed1004f65edbe7b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fence_simpleCenter.obj-d7d6e90a82916dea2ed1004f65edbe7b.mesh"]
+
+source_file="res://assets/Nature/kenney_nature-kit/Models/OBJ format/fence_simpleCenter.obj"
+dest_files=["res://.godot/imported/fence_simpleCenter.obj-d7d6e90a82916dea2ed1004f65edbe7b.mesh", "res://.godot/imported/fence_simpleCenter.obj-d7d6e90a82916dea2ed1004f65edbe7b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

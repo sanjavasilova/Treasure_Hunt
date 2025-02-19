@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://00wln56fvwe3"
+path="res://.godot/imported/Market_RedTeam.obj-1c36f5a0d87a6305019b0c14c2308d0a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Market_RedTeam.obj-1c36f5a0d87a6305019b0c14c2308d0a.mesh"]
+
+source_file="res://assets/OBJ/Market_RedTeam.obj"
+dest_files=["res://.godot/imported/Market_RedTeam.obj-1c36f5a0d87a6305019b0c14c2308d0a.mesh", "res://.godot/imported/Market_RedTeam.obj-1c36f5a0d87a6305019b0c14c2308d0a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

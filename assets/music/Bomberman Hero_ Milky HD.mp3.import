@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ban6usjdho5y8"
+path="res://.godot/imported/Bomberman Hero_ Milky HD.mp3-97bc040abe25ba66a6cc6a7428421d2a.mp3str"
+
+[deps]
+
+source_file="res://assets/music/Bomberman Hero_ Milky HD.mp3"
+dest_files=["res://.godot/imported/Bomberman Hero_ Milky HD.mp3-97bc040abe25ba66a6cc6a7428421d2a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

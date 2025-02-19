@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://ryjyrb23batb"]
+
+[ext_resource type="PackedScene" uid="uid://bdu4d4755bwci" path="res://assets/chest/TreasureChest.FBX" id="1_gw2oa"]
+[ext_resource type="Script" path="res://scripts/treasure_chest.gd" id="2_3k5fv"]
+[ext_resource type="AudioStream" uid="uid://dfjoil5jhyr13" path="res://assets/music/Mario Coin Sound - Sound Effect (HD).mp3" id="3_tt4r8"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_sveb1"]
+
+[node name="TreasureChest" instance=ExtResource("1_gw2oa")]
+script = ExtResource("2_3k5fv")
+
+[node name="chest_top" parent="." index="1"]
+transform = Transform3D(2.54, 0, 0, 0, -1.11027e-07, 2.54, 0, -2.54, -1.11027e-07, 0.246654, 0.551721, -0.299927)
+
+[node name="Area3D" type="Area3D" parent="." index="5"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" index="0"]
+shape = SubResource("SphereShape3D_sveb1")
+
+[node name="CollectAudio" type="AudioStreamPlayer" parent="." index="6"]
+stream = ExtResource("3_tt4r8")
+bus = &"SFX"

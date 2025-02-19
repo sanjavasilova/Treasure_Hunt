@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cld5i5vbmn4lo"
+path="res://.godot/imported/ArcherTower_Level1_BlueTeam.obj-f8cd64da7948fb9af096c181accd444b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ArcherTower_Level1_BlueTeam.obj-f8cd64da7948fb9af096c181accd444b.mesh"]
+
+source_file="res://assets/OBJ/ArcherTower_Level1_BlueTeam.obj"
+dest_files=["res://.godot/imported/ArcherTower_Level1_BlueTeam.obj-f8cd64da7948fb9af096c181accd444b.mesh", "res://.godot/imported/ArcherTower_Level1_BlueTeam.obj-f8cd64da7948fb9af096c181accd444b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

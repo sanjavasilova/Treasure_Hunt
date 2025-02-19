@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cr8t78r8urymv"
+path="res://.godot/imported/stump_square.obj-8d4ca6f4c754f4316bfa0528cf5124dd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stump_square.obj-8d4ca6f4c754f4316bfa0528cf5124dd.mesh"]
+
+source_file="res://assets/Nature/kenney_nature-kit/Models/OBJ format/stump_square.obj"
+dest_files=["res://.godot/imported/stump_square.obj-8d4ca6f4c754f4316bfa0528cf5124dd.mesh", "res://.godot/imported/stump_square.obj-8d4ca6f4c754f4316bfa0528cf5124dd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

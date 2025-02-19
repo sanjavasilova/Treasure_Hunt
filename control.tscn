@@ -1,0 +1,59 @@
+[gd_scene load_steps=5 format=3 uid="uid://b0ks4m4gw4gaf"]
+
+[ext_resource type="AudioStream" uid="uid://ban6usjdho5y8" path="res://assets/music/Bomberman Hero_ Milky HD.mp3" id="1_m3o82"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_bq7os"]
+font_size = 30
+
+[sub_resource type="LabelSettings" id="LabelSettings_t5m88"]
+font_size = 30
+
+[sub_resource type="LabelSettings" id="LabelSettings_g5771"]
+font_size = 30
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScoreLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 487.0
+offset_top = 8.0
+offset_right = 666.0
+offset_bottom = 72.0
+text = "Chests: 0/10"
+label_settings = SubResource("LabelSettings_bq7os")
+horizontal_alignment = 1
+
+[node name="GameOverLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 347.0
+offset_top = 166.0
+offset_right = 810.0
+offset_bottom = 284.0
+label_settings = SubResource("LabelSettings_t5m88")
+horizontal_alignment = 1
+
+[node name="TimerLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 477.0
+offset_top = 52.0
+offset_right = 650.0
+offset_bottom = 116.0
+label_settings = SubResource("LabelSettings_g5771")
+horizontal_alignment = 1
+
+[node name="TryAgainButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 512.0
+offset_top = 280.0
+offset_right = 633.0
+offset_bottom = 324.0
+text = "PLAY AGAIN?"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_m3o82")

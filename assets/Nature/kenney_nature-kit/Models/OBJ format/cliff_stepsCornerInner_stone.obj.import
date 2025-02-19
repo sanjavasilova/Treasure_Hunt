@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dqsflnorusntn"
+path="res://.godot/imported/cliff_stepsCornerInner_stone.obj-e20db7131db21b5a1207b1580b276f5d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cliff_stepsCornerInner_stone.obj-e20db7131db21b5a1207b1580b276f5d.mesh"]
+
+source_file="res://assets/Nature/kenney_nature-kit/Models/OBJ format/cliff_stepsCornerInner_stone.obj"
+dest_files=["res://.godot/imported/cliff_stepsCornerInner_stone.obj-e20db7131db21b5a1207b1580b276f5d.mesh", "res://.godot/imported/cliff_stepsCornerInner_stone.obj-e20db7131db21b5a1207b1580b276f5d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

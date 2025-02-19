@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b8lx6uryyhowg"
+path="res://.godot/imported/tree_palmDetailedTall.obj-ee2d78d62fb1fbfd86a968ba2e9b1983.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tree_palmDetailedTall.obj-ee2d78d62fb1fbfd86a968ba2e9b1983.mesh"]
+
+source_file="res://assets/Nature/kenney_nature-kit/Models/OBJ format/tree_palmDetailedTall.obj"
+dest_files=["res://.godot/imported/tree_palmDetailedTall.obj-ee2d78d62fb1fbfd86a968ba2e9b1983.mesh", "res://.godot/imported/tree_palmDetailedTall.obj-ee2d78d62fb1fbfd86a968ba2e9b1983.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
