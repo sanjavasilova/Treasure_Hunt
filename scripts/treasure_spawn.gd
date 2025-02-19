@@ -105,7 +105,6 @@ func _on_chest_collected() -> void:
 	collected_chests += 1
 	collect_audio.play()
 	score_label.text = "Chests: " + str(collected_chests) + "/10"
-	print("Chest collected! Total chests: ", collected_chests)
 
 	if collected_chests >= CHEST_COUNT:
 		end_game("YOU WON!\nYou collected all the chests!")
@@ -114,7 +113,6 @@ func _on_timer_timeout() -> void:
 	end_game("Time's up!")
 
 func end_game(message: String) -> void:
-	print("Game Over: ", message)
 	game_over_label.text = message 
 	game_over_label.show() 
 	try_again_button.show()
