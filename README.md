@@ -152,6 +152,10 @@
 ## Слики од Играта
 ###	Почетен Екран:
 ![Beginning screen](Game_Images/game%20pic.jpg)
+
+### Играч
+![Player](Game_Images/character.jpg)  
+
 ###	Играње:
 Играчот се движи низ паркот и собира ковчези.
 
